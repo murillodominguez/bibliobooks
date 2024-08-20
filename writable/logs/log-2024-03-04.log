@@ -1,0 +1,22 @@
+CRITICAL - 2024-03-04 00:45:57 --> ErrorException: Undefined array key "operator"
+in APPPATH\Views\calcbhask.php on line 83.
+ 1 APPPATH\Views\calcbhask.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "operator"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\calcbhask.php', 83)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\calcbhask.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 5 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 00:46:15 --> ErrorException: Undefined array key "operator"
+in APPPATH\Views\calcbhask.php on line 83.
+ 1 APPPATH\Views\calcbhask.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "operator"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\calcbhask.php', 83)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\calcbhask.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 5 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

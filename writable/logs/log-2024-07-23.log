@@ -1,0 +1,64 @@
+INFO - 2024-07-23 17:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-23 17:14:23 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbprincipal' in /home/aluno/Downloads/ci4projects (2)/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/aluno/Downloads/ci4projects (2)/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/aluno/Downloads/ci4projects (2)/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aluno/Downloads/ci4projects (2)/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aluno/Downloads/ci4projects (2)/system/Database/BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aluno/Downloads/ci4projects (2)/system/Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /home/aluno/Downloads/ci4projects (2)/app/Controllers/BiblioController.php(267): CodeIgniter\Model->__call()
+#6 /home/aluno/Downloads/ci4projects (2)/app/Controllers/BiblioController.php(186): App\Controllers\BiblioController->verifyUserEmailFromDatabase()
+#7 /home/aluno/Downloads/ci4projects (2)/system/CodeIgniter.php(941): App\Controllers\BiblioController->login()
+#8 /home/aluno/Downloads/ci4projects (2)/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/aluno/Downloads/ci4projects (2)/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aluno/Downloads/ci4projects (2)/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/aluno/Downloads/ci4projects (2)/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbprincipal' in /home/aluno/Downloads/ci4projects (2)/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/aluno/Downloads/ci4projects (2)/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aluno/Downloads/ci4projects (2)/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aluno/Downloads/ci4projects (2)/system/Database/BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aluno/Downloads/ci4projects (2)/system/Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere()
+#4 /home/aluno/Downloads/ci4projects (2)/app/Controllers/BiblioController.php(267): CodeIgniter\Model->__call()
+#5 /home/aluno/Downloads/ci4projects (2)/app/Controllers/BiblioController.php(186): App\Controllers\BiblioController->verifyUserEmailFromDatabase()
+#6 /home/aluno/Downloads/ci4projects (2)/system/CodeIgniter.php(941): App\Controllers\BiblioController->login()
+#7 /home/aluno/Downloads/ci4projects (2)/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/aluno/Downloads/ci4projects (2)/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aluno/Downloads/ci4projects (2)/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/aluno/Downloads/ci4projects (2)/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-07-23 17:14:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbprincipal'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere()
+ 4 APPPATH/Controllers/BiblioController.php(267): CodeIgniter\Model->__call()
+ 5 APPPATH/Controllers/BiblioController.php(186): App\Controllers\BiblioController->verifyUserEmailFromDatabase()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BiblioController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Downloads/ci4projects (2)/public/index.php')
+INFO - 2024-07-23 17:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 17:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

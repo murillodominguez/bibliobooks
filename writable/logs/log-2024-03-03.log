@@ -1,0 +1,112 @@
+CRITICAL - 2024-03-03 00:07:58 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Views\calcprag.php on line 36.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 3 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 00:25:20 --> ParseError: syntax error, unexpected token "break"
+in APPPATH\Views\calcprag.php on line 40.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 3 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 00:27:49 --> ErrorException: Undefined variable $op
+in APPPATH\Views\calcprag.php on line 54.
+ 1 APPPATH\Views\calcprag.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $op', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\calcprag.php', 54)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\calcprag.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 5 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 00:27:58 --> ErrorException: Undefined variable $op
+in APPPATH\Views\calcprag.php on line 54.
+ 1 APPPATH\Views\calcprag.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $op', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\calcprag.php', 54)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\calcprag.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 5 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 00:28:57 --> TypeError: Unsupported operand types: string - string
+in APPPATH\Views\calcprag.php on line 43.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 4 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 00:29:01 --> TypeError: Unsupported operand types: string - string
+in APPPATH\Views\calcprag.php on line 43.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 4 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 00:43:18 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Views\calcprag.php on line 42.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 3 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 00:45:48 --> Error: Call to undefined function isnumeric()
+in APPPATH\Views\calcprag.php on line 37.
+ 1 APPPATH\Views\calcprag.php(42): dataValidationInput('123')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\calcprag.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 5 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 00:45:59 --> ErrorException: Undefined variable $POST
+in APPPATH\Views\calcprag.php on line 42.
+ 1 APPPATH\Views\calcprag.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $POST', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\calcprag.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\calcprag.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcprag', [], true)
+ 5 APPPATH\Controllers\Calcprag.php(9): view('calcprag')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 20:56:38 --> ErrorException: Undefined variable $totalTime
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\ci4\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(512): include('C:\\xampp\\htdocs\\ci4\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 22:26:08 --> ErrorException: Undefined array key "operator"
+in APPPATH\Views\calcbhask.php on line 83.
+ 1 APPPATH\Views\calcbhask.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "operator"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\calcbhask.php', 83)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\calcbhask.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 5 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

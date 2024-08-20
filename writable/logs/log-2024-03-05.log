@@ -1,0 +1,114 @@
+CRITICAL - 2024-03-05 02:00:47 --> ParseError: syntax error, unexpected double-quoted string "</h1>", expecting "," or ";"
+in APPPATH\Views\calcbhask.php on line 95.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 3 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 02:03:05 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\calcbhask.php on line 102.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 3 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 02:27:01 --> ParseError: Unmatched '}'
+in APPPATH\Views\calcbhask.php on line 95.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 3 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 02:27:18 --> TypeError: Unsupported operand types: string ** int
+in APPPATH\Views\calcbhask.php on line 77.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 4 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 02:27:18 --> TypeError: Unsupported operand types: string ** int
+in APPPATH\Views\calcbhask.php on line 77.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 4 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 02:28:15 --> DivisionByZeroError: Division by zero
+in APPPATH\Views\calcbhask.php on line 91.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 4 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 02:28:16 --> DivisionByZeroError: Division by zero
+in APPPATH\Views\calcbhask.php on line 91.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calcbhask', [], true)
+ 4 APPPATH\Controllers\Calcprag.php(14): view('calcbhask')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calcprag->bhaskara()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcprag))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 20:17:34 --> ErrorException: Undefined array key 2
+in APPPATH\Controllers\Exerc1Controller.php on line 70.
+ 1 APPPATH\Controllers\Exerc1Controller.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\ci4projects\\app\\Controllers\\Exerc1Controller.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Exerc1Controller->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exerc1Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 20:49:09 --> ErrorException: Undefined variable $idade
+in APPPATH\Views\templateexerc.php on line 24.
+ 1 APPPATH\Views\templateexerc.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idade', 'C:\\xampp\\htdocs\\ci4projects\\app\\Views\\templateexerc.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4projects\\app\\Views\\templateexerc.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templateexerc', [], true)
+ 5 APPPATH\Controllers\Exerc1Controller.php(87): view('templateexerc', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Exerc1Controller->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exerc1Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 20:49:36 --> ErrorException: Undefined variable $idade
+in APPPATH\Views\templateexerc.php on line 24.
+ 1 APPPATH\Views\templateexerc.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idade', 'C:\\xampp\\htdocs\\ci4projects\\app\\Views\\templateexerc.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4projects\\app\\Views\\templateexerc.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templateexerc', [], true)
+ 5 APPPATH\Controllers\Exerc1Controller.php(87): view('templateexerc', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Exerc1Controller->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exerc1Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 20:49:37 --> ErrorException: Undefined variable $idade
+in APPPATH\Views\templateexerc.php on line 24.
+ 1 APPPATH\Views\templateexerc.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idade', 'C:\\xampp\\htdocs\\ci4projects\\app\\Views\\templateexerc.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4projects\\app\\Views\\templateexerc.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templateexerc', [], true)
+ 5 APPPATH\Controllers\Exerc1Controller.php(87): view('templateexerc', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Exerc1Controller->update()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exerc1Controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 21:11:32 --> ErrorException: Undefined array key ""
+in APPPATH\Controllers\Exerc1Controller.php on line 73.
+ 1 APPPATH\Controllers\Exerc1Controller.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\ci4projects\\app\\Controllers\\Exerc1Controller.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Exerc1Controller->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exerc1Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

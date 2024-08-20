@@ -1,0 +1,28 @@
+CRITICAL - 2024-03-02 23:29:59 --> ParseError: syntax error, unexpected token ","
+in APPPATH\Controllers\Calculadora.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Calculadora.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculadora')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculadora')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Calculadora', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 23:30:53 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Calculadora.php on line 21.
+ 1 APPPATH\Controllers\Calculadora.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Calculadora.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calculadora->post()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculadora))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 23:33:04 --> ErrorException: Undefined variable $data
+in APPPATH\Views\calculadora.php on line 35.
+ 1 APPPATH\Views\calculadora.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\calculadora.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\calculadora.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('calculadora', [], true)
+ 5 APPPATH\Controllers\Calculadora.php(9): view('calculadora')
+ 6 APPPATH\Controllers\Calculadora.php(21): App\Controllers\Calculadora->index()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Calculadora->post()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculadora))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

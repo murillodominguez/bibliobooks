@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-inline: 20px;
+  flex-wrap: wrap;
+  background-color: rgb(5, 113, 255);
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  margin-bottom: 20px;
+}
+
+nav{
+  display: flex;
+  margin-right: 20px;
+  gap: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+main{
+  margin-inline: 100px;
+  margin-bottom: 2%;
+}
+
+.logo{
+  padding: 10px;
+  font-style: italic;
+  color: white;
+  display: flex;
+  gap: 10px;
+  font-size: 1.2em;
+}
+
+.logotext{
+  align-self: center;
+}
+
+.loginContainer, .signUpContainer{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.separator{
+  width: 1px;
+  background-color: black;
+}
+
+.loginTitle{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+}
+
+.formgroup{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formgroup input:focus{
+  outline: none;
+}
+
+.formgroup button{
+  background-color: #25ff99;
+  border: 1px solid black;
+  width: 70px;
+  height: 30px;
+  align-self: flex-end !important;
+}
+
+.login button:hover{
+  transition: background-color 0.2s ease-in;
+  background-color: #20d882;
+}
+
+.login button:hover{
+  cursor: pointer;
+}
+
+.sign{
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.signUpContainer .loginTitle{
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.error{
+  color: red;
+}
+
+.alert-success{
+  padding-block: 20px;
+  margin: 0 auto;
+  margin-block: 20px;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(200, 255, 188);
+}
+
+.alert-success h1{
+  padding-inline: 50px;
+}
+
+.listHeader{
+  background-color: rgb(175, 226, 255);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.listTitle{
+
+}
+
+#insertbutton{
+  margin-inline: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-search, .box-search-books, .box-search-emprest{
+  display: flex;
+  width: 30%;
+  gap: 5px;
+}
+
+.box-search{
+  margin-right: 30%;
+}
+
+.search-input{
+  outline: 0;
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.search-button{
+  background-color: rgb(0, 102, 255);
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.search-button:hover{
+  cursor: pointer;
+}
+
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  border-spacing: 0px;
+  font-size: 1em;
+}
+
+thead{
+      background-color: rgb(175, 226, 255);
+}
+
+th{
+  border-bottom: 1px solid black;
+  text-align: start;
+  width: fit-content;
+}
+
+tbody{
+  background-color: rgb(255, 255, 255);
+}
+
+tbody tr:nth-child(even){
+  background-color: rgb(194, 194, 194);
+}
+
+td{
+  border-bottom: 1px solid black;
+  border-inline: 1px solid black;
+}
+
+button{
+  background: none;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+}
+
+form{
+  display: flex;
+}
+
+table button:hover{
+  cursor: pointer;
+}
+
+.toolColumn{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.tools{
+  width: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  margin-block: 5px;
+}
+
+.alugar{
+  color: green;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(152, 255, 152);
+  transition: all ease-in-out 200ms;
+}
+
+.alugado{
+  color: rgb(0, 60, 109);
+  height: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(72, 145, 255);
+  transition: all ease-in-out 200ms;
+}
+
+.alugar:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.bookOption{
+  color: green;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(152, 255, 152);
+  transition: all ease-in-out 200ms;
+}
+
+.bookOption:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.disabled{
+  filter: grayscale(1);
+  cursor: default !important;
+  transform: scale(1) !important;
+}
+
+.soldout{
+  color: rgb(161, 15, 15) !important;
+}
+
+
+
+.fa-solid{
+  font-size: 15px !important;
+  color: rgb(0, 83, 179);
+  transition: ease-in color 80ms;
+}
+
+.fa-trash:hover{
+  color: rgb(150, 0, 0);
+}
+
+.fa-pen-to-square:hover{
+  color: rgb(0, 15, 150);
+}
+
+.gridContainer{
+  display: grid;
+  background-color: rgb(175, 226, 255);
+  padding: 20px;
+  gap: 40px;
+  column-gap: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridItem{
+  padding: 10px;
+  background-color:rgb(122, 164, 177);
+  display: grid;
+  grid-template-areas:
+  'image image'
+  'label options'
+}
+
+.bookImage{
+  grid-area: image;
+  background-color: white;
+  width: 120px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.bookLabelContainer{
+  grid-area: label;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.bookStock{
+  font-size: 0.7rem;
+  align-self: end;
+}
+
+.bookOptions{
+  grid-area: options;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  background: #ffab62;
+  height: 50px;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
